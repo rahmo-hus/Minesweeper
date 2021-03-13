@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-J0D53DA</Machine>
+    <WindowsUser>xcross</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>3ff83287-8ceb-49bb-ae49-8891fd95f4c5</PackageIdentityName>
+    <PackageIdentityPublisher>CN=xcross</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\username\source\repos\Minesweeper\Minesweeper\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\username\source\repos\Minesweeper\Minesweeper\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>2605A096572FF8952F240349CFBE03B6E465FEC8A69D96102B69CFF173541587</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>3ff83287-8ceb-49bb-ae49-8891fd95f4c5_1.0.0.0_x86__z0te9zwqjq6d4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>3ff83287-8ceb-49bb-ae49-8891fd95f4c5_z0te9zwqjq6d4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>3ff83287-8ceb-49bb-ae49-8891fd95f4c5</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=xcross</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-13T01:03:12.416</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\bin\x86\Debug\Minesweeper.exe">
+      <PackagePath>entrypoint\Minesweeper.exe</PackagePath>
+      <Modified>2021-03-13T01:03:11.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2020-02-27T18:16:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T17:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.714</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.367</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.216</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.631</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.431</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.659</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.685</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Images\Flag.png">
+      <PackagePath>Images\Flag.png</PackagePath>
+      <Modified>2021-03-12T21:15:54.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Images\mine.png">
+      <PackagePath>Images\mine.png</PackagePath>
+      <Modified>2021-03-12T20:01:41.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Images\question.png">
+      <PackagePath>Images\question.png</PackagePath>
+      <Modified>2021-03-12T21:35:13.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Images\smiley.png">
+      <PackagePath>Images\smiley.png</PackagePath>
+      <Modified>2021-03-12T21:06:46.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-11-04T15:27:13.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:44.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-12T23:28:43.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Images\smileyLoser.jpg">
+      <PackagePath>Images\smileyLoser.jpg</PackagePath>
+      <Modified>2021-03-13T00:25:12.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Images\smileyRegular.jpg">
+      <PackagePath>Images\smileyRegular.jpg</PackagePath>
+      <Modified>2021-03-13T00:28:11.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Images\smileyWon.jpg">
+      <PackagePath>Images\smileyWon.jpg</PackagePath>
+      <Modified>2021-03-13T00:28:11.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2021-02-19T13:21:23.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\bin\x86\Debug\Minesweeper.xr.xml">
+      <PackagePath>Minesweeper.xr.xml</PackagePath>
+      <Modified>2021-03-13T01:03:11.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2021-03-13T00:44:13.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2021-03-13T01:03:11.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T16:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-03-13T00:44:13.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\username\source\repos\Minesweeper\Minesweeper\bin\x86\Debug\Core\Minesweeper.exe">
+      <PackagePath>Minesweeper.exe</PackagePath>
+      <Modified>2021-03-13T01:03:12.411</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
